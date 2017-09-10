@@ -1,0 +1,27 @@
+{
+  "name": "server-side-inventory",
+  "version": "1.0.0",
+  "description": "In this project we'll create a project that tracks an inventory on the server. Also, we'll explore Express routing through custom modules.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "node": "^8.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliciaKay/canopus-server-side-inventory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliciaKay/canopus-server-side-inventory/issues"
+  },
+  "homepage": "https://github.com/AliciaKay/canopus-server-side-inventory#readme"
+}

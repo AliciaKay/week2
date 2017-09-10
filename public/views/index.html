@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- path needs to be relative to the public folder -->
+    <script src="vendors/jquery.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <title>People Lister</title>
+</head>
+<body>
+    <header>
+        <h2>People We Know</h2>
+    </header>
+    <section id="inputSection">
+        <input id="name" type="text" placeholder="Enter Name">
+        <input id="details" type="text" placeholder="Enter Details">
+        <button id="addPerson">Add Person</button>
+    </section>
+    <section id="tableList">
+    <thead id="header">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Details</th>
+        <th>Delete</th>
+    </thead>
+        <tbody id="list">
+
+        </tbody>
+    </section>
+</body>
+</html>
